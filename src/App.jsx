@@ -1,9 +1,8 @@
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
-
-import Favorites from './views/Favorites'
 import Home from './views/Home'
-
+import Pokemones from './views/Pokemones'
+import Pokemon from './views/Pokemon'
 
 const App = () => {
   return (
@@ -16,9 +15,14 @@ const App = () => {
           path='/'
           element={<Home />}
         />
+
         <Route
-          path='/favoritos'
-          element={<Favorites />}
+          path='/pokemones'
+          element={<Pokemones />}
+        />
+        <Route
+          path='pokemon/:id'
+          element={<Pokemon />}
         />
       </Routes>
     </div>

@@ -1,4 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import '/Users/max/dev/DESAFIO_LATAM/REACT-II/desafio-3/node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
 body {
   margin: 0;
 }
@@ -21,7 +22,7 @@ a {
 }
 
 .navbar {
-  background: #43a047;
+  background: pink;
   padding: 20px;
   color: white;
 }
